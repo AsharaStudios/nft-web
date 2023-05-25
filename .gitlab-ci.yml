@@ -1,0 +1,12 @@
+image: busybox
+
+pages:
+  before_script:
+    - mkdir -p public
+  script:
+    - ls public
+  artifacts:
+    paths:
+      - public
+  only: #only in tags like v1.0.0 v1.1.0 v.1.10.0 etc. see https://rubular.com/r/1en2eblDzRP5Ha
+    - /^v[0-9]+\.[0-9]+\.[0-9]+$/

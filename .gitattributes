@@ -1,0 +1,86 @@
+# Normalize line endings of text files
+[attr]t_auto text=auto
+
+* t_auto
+
+*.txt t_auto
+*.vue t_auto
+*.jsx t_auto
+*.js t_auto
+
+*.css t_auto
+*.sass t_auto
+*.scss t_auto
+
+*.svg t_auto
+*.xml t_auto
+*.html t_auto
+*.json t_auto
+*.yaml t_auto
+*.yml t_auto
+
+# Macro for all binary files that should use Git LFS.
+[attr]lfs -text filter=lfs diff=lfs merge=lfs
+
+# Images
+*.ai lfs
+*.bmp lfs
+*.dds lfs
+*.gif lfs
+*.ico lfs
+*.iff lfs
+*.jpg lfs
+*.jpeg lfs
+*.pict lfs
+*.png lfs
+*.psd lfs
+*.tga lfs
+*.tif lfs
+*.tiff lfs
+*.webp lfs
+*.xcf lfs
+
+#Audio
+*.aif lfs
+*.aiff lfs
+*.it lfs
+*.mod lfs
+*.mp3 lfs
+*.ogg lfs
+*.s3m lfs
+*.wav lfs
+*.xm lfs
+
+#Video
+*.asf lfs
+*.avi lfs
+*.mov lfs
+*.mp4 lfs
+*.mpg lfs
+*.mpeg lfs
+*.webm lfs
+
+#3D Object
+*.3dm lfs
+*.3ds lfs
+*.abc lfs
+*.blend lfs
+*.c4d lfs
+*.dae lfs
+*.dfx lfs
+*.fbx lfs
+*.lwo lfs
+*.lwo2 lfs
+*.max lfs
+*.ma lfs
+*.mb lfs
+*.obj lfs
+
+# Fonts
+*.woff2 lfs
+*.ttf lfs
+*.otf lfs
+
+#ETC
+*.exe lfs
+*.pdf lfs
