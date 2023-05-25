@@ -77,10 +77,14 @@
 *.obj lfs
 
 # Fonts
+*.woff lfs
 *.woff2 lfs
 *.ttf lfs
+*.eot lfs
 *.otf lfs
 
 #ETC
 *.exe lfs
 *.pdf lfs
+*.pck lfs
+*.wasm lfs
