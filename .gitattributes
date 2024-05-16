@@ -87,4 +87,6 @@
 *.exe lfs
 *.pdf lfs
 *.pck lfs
+*.data lfs
+*.Towner lfs
 *.wasm lfs
